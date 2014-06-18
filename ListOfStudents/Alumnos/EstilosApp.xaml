@@ -1,0 +1,49 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Alumnos">
+
+    <ImageBrush x:Key="Pizarra" ImageSource="Images\Chalkboard.jpg"/>
+    <Style x:Key="GridStyle" TargetType="Grid">
+        <Setter Property="Grid.Background" Value="{StaticResource Pizarra}"/>
+    </Style>
+
+    <Style x:Key="Estilofuente" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="Buxton Sketch"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+
+    <Style x:Key="EstiloCabecera" TargetType="TextBlock" BasedOn="{StaticResource Estilofuente}">
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="WhiteSmoke"/>
+    </Style>
+
+    <Style x:Key="EstiloCabeceraTabular" TargetType="TextBlock" BasedOn="{StaticResource EstiloCabecera}">
+        <Setter Property="FontSize" Value="70"/>
+    </Style>
+
+    <Style x:Key="EstiloCabeceraColumnar" TargetType="TextBlock" BasedOn="{StaticResource EstiloCabecera}">
+        <Setter Property="FontSize" Value="50"/>
+    </Style>
+
+    <Style x:Key="EstiloEtiqueta" TargetType="TextBlock" BasedOn="{StaticResource Estilofuente}">
+
+        <Setter Property="HorizontalAlignment" Value="Center"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="VerticalAlignment" Value="Center"/>
+        <Setter Property="Foreground" Value="AntiqueWhite"/>
+    </Style>
+
+    <Style x:Key="EstiloComboBox" TargetType="ComboBox">
+        <Setter Property="FontFamily" Value="Buxton Sketch"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+
+    <Style x:Key="EstiloTextBox" TargetType="TextBox">
+        <Setter Property="FontFamily" Value="Buxton Sketch"/>
+        <Setter Property="FontSize" Value="30"/>
+    </Style>
+
+</ResourceDictionary>

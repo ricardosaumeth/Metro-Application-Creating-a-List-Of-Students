@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAQUITA_POLLITO</Machine>
+    <WindowsUser>Ricardo</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>cdebe0aa-0997-49f0-8722-2a833475cad1</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\Alumnos.exe">
+      <PackagePath>Alumnos.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\rsz_21milogo_150.png">
+      <PackagePath>Assets\rsz_21milogo_150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\rsz_milogo_30.png">
+      <PackagePath>Assets\rsz_milogo_30.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\rsz_milogo_620.png">
+      <PackagePath>Assets\rsz_milogo_620.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\Images\Chalkboard.jpg">
+      <PackagePath>Images\Chalkboard.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\EstilosApp.xbf">
+      <PackagePath>EstilosApp.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\SearchResultsPage.xbf">
+      <PackagePath>SearchResultsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\Alumnos.xr.xml">
+      <PackagePath>Alumnos.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ricardo\Documents\Visual Studio 2013\Projects\Alumnos\Alumnos\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
