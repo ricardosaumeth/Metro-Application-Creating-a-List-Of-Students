@@ -15,3 +15,6 @@ List of Students Main Page. Vertical Layout
 
 The Main Grid was dividen into 2 rows and 2 columns. 
 The second row was split into 6 rows.
+![9cdbaa_3a1e3a6ea9b446c886964f94ff8e2769]
+(https://cloud.githubusercontent.com/assets/3826129/21523240/3fa0a962-cd04-11e6-85bf-2d321cc539e5.png)
+
